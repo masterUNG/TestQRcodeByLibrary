@@ -51,8 +51,6 @@ public class MainFragment extends Fragment{
                         Log.d("12MarchV1", "QR code ==> " + resultString);
                         getActivity().getSupportFragmentManager().beginTransaction()
                                 .replace(R.id.contentMainFragment, new MainFragment()).commit();
-
-
                     }
                 });
 
